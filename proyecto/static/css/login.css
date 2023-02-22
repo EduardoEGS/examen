@@ -1,0 +1,85 @@
+*{  /*Afecta a toda la estructura*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center; /*El texto en el centro*/
+    font-family: sans-serif; /*Tipo de letra*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background: rgb(121, 126, 128);
+
+}
+
+.head{ 
+    justify-content: space-between;
+    height: 63px;
+    background:#161758;
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+}
+
+.navbar{
+    
+    display: flex;
+    margin-right: 15px;
+}
+
+.head h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 1.6rem;
+    margin: 1rem;
+}
+
+
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box{ /*Afectar donde conincidan esas clases*/
+    height: 27rem;
+    width: 22rem;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0,0, .5);
+    margin: 2rem;
+}
+h2{
+    color: rgb(18, 20, 145);
+    text-transform: uppercase;
+    margin: 2rem;
+    text-decoration: none;
+}
+
+
+.border{
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.boton{
+    height: 3rem;
+    width: 6rem;
+    background: #002066;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(4, 19, 102, 0.5);
+    margin: 2rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin: 2rem;
+    text-decoration: none;
+}
